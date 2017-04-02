@@ -1,0 +1,27 @@
+body{
+  font-family: sans-serif;
+}
+.nav ul
+{
+  display: inline;
+  list-style-type: none;
+}
+.nav li{
+  margin-left: auto;
+  padding-left: 15px;
+  float: right;
+}
+.nav ul li a
+{
+  display: inline-block;
+  color: grey;
+  text-decoration: none;
+}
+.nav ul li a:hover{
+  text-decoration: underline;
+}
+.nav{
+  font-size: 13px;
+  vertical-align: middle;
+  overflow: hidden;
+}
